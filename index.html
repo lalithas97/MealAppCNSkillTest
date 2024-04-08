@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meals with description about each</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+<!-- Theme-toggle Switch   -->
+  <body class="theme-one">
+    <header> 
+      <div class="theme-toggle" aria-label="Theme">
+        <div id="theme-one"></div>
+        <div></div>
+        <div></div>
+      </div>
+<!--  Theme-toggle Switch  -->
+<!--  Nav-bar   -->
+      <input type="text" placeholder="Search Meal" />
+      <div class="button-container">
+        <button id="list-categories">Categories</button>
+        <button id="random-meal"><a link="./random.html" target="_blank">Random</a></button>
+        <a href="./favorites.html" target="_blank" class="favorite-link">
+          <button id="fav-meal">Favorite</button>
+      </a>
+<!--  Nav-bar   -->
+      </div>
+    </header>
+
+    <main>
+<!--  Dynamically Inserted Recipe Information    -->
+      <div class="recipe-container"></div>
+<!--  Dynamically Inserted Category Cards   -->
+      <div class="categories-container"></div>
+<!--  Dynamically Inserted Meals Cards   -->
+      <div class="meals-container"></div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
