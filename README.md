@@ -1,5 +1,5 @@
 # mealsAppAPI
-Project: https://mounirel-abbas.github.io/mealsAppAPI/
+Project: https://lalithas97.github.io/MealAppCNSkillTest/
 
 (FREE) API Used:https://www.themealdb.com/api.php
 
